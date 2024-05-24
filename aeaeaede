@@ -36,7 +36,7 @@ draggable(menu.bg)
  local tabholder = menu.bg.bg.bg.bg.bg.bg.main.group;
  local tabviewer = menu.bg.bg.bg.bg.bg.bg.tabbuttons;
 menu.Name = library.cheatname
-menu.bg.TopBar.Text.Text = library.cheatname
+menu.bg.TopLine.TopBar.Text.Text = library.cheatname
 
 
 inputService.InputEnded:Connect(function(key, gpe)
